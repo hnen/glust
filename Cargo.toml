@@ -1,0 +1,12 @@
+[package]
+name = "glust"
+version = "0.1.0"
+authors = ["Harri Hätinen <hhatinen@gmail.com>"]
+
+[dependencies]
+clippy = {version = "*", optional = true}
+
+glutin = "*"
+gl = "*"
+libc = "*"
+
